@@ -21,3 +21,16 @@ This project was developed and tested using:
 - PyTorch **2.7.1+cu118**
 - CUDA **11.8**
 - Linux/Windows (any environment with CUDA 11.8 should work)
+
+
+**Dataset Overview**
+
+This project includes four datasets generated from different partial differential equations (PDEs):
+
+1. Poisson Equation Dataset
+2. Linear Elasticity Equation Dataset
+These two datasets are included inside the compressed archive bundled with the source code.
+
+3. Composite RVE Dataset
+4. Lid-Driven Cavity Flow Dataset
+These two larger datasets are provided separately and can be downloaded directly from the GitHub Release page.
