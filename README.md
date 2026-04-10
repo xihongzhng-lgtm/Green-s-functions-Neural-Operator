@@ -1,19 +1,20 @@
-# Green-s-functions-Neural-Operator
+**Green-s-functions-Neural-Operator**
 Neural operator learning of Green’s functions in frequency domain for PDEs with structured spectral coupling.
 
 This repository implements a neural operator framework for learning Green’s functions of partial differential equations in the frequency domain.
 
-The model parameterizes the Green’s operator as a structured spectral kernel, capturing cross-frequency and cross-component couplings for vector-valued PDEs such as Stokes flow and linear elasticity.
+The model parameterizes the Green’s operator as a structured spectral kernel, capturing cross-frequency and cross-component couplings for PDEs.
 
-Unlike standard Fourier Neural Operators, the proposed method explicitly models block-coupled Green’s function matrices, enabling improved representation of anisotropic and non-self-adjoint systems.
+Unlike standard Fourier Neural Operators, the proposed method explicitly models block-coupled Green’s function matrices, enabling improved representation of anisotropic systems.
 
 We evaluate the method on benchmark PDEs including:
 - Linear elasticity problems
 - lid-driven cavity flow
 - Composite RVE
 - Poisson equation
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-- ## Environment
+**Environment**
 
 This project was developed and tested using:
 
@@ -21,7 +22,7 @@ This project was developed and tested using:
 - PyTorch **2.7.1+cu118**
 - CUDA **11.8**
 - Linux/Windows (any environment with CUDA 11.8 should work)
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Dataset Overview**
 
