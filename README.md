@@ -1,4 +1,5 @@
 **Green-s-functions-Neural-Operator**
+
 Neural operator learning of Green’s functions in frequency domain for PDEs with structured spectral coupling.
 
 This repository implements a neural operator framework for learning Green’s functions of partial differential equations in the frequency domain.
